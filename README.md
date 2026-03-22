@@ -32,6 +32,12 @@ Agradecimentos aos artistas da comunidade:
 - **Player2 PixelArt** https://szadiart.itch.io/rpg-main-character
 - **Antagonista PixelArt** https://immortal-burrito.itch.io/blood-demons
 
+Prints do jogo em execução:
+
+<img width="1165" height="659" alt="Captura de tela de 2026-03-22 19-27-59" src="https://github.com/user-attachments/assets/9e5cf3be-a691-4d46-883b-7b7727b14b80" />
+<img width="1165" height="659" alt="Captura de tela de 2026-03-22 19-27-43" src="https://github.com/user-attachments/assets/f630684b-2c1e-4eb8-a858-8e3a7677a0d0" />
+<img width="1165" height="659" alt="Captura de tela de 2026-03-22 19-27-25" src="https://github.com/user-attachments/assets/6c0782e6-bcb7-40cf-851e-82cb29e63daf" />
+
   
 ## 🔧 Como Executar o Projeto
 
