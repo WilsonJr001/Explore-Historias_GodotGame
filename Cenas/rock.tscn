@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckfleqb475lng"]
+
+[ext_resource type="Texture2D" uid="uid://b8npyqw87hql8" path="res://Imagens/Pixel Lands Forest Demo/forest_demo_objects.png" id="1_4qjtm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hvgv7"]
+size = Vector2(30, 10)
+
+[node name="Rock" type="StaticBody2D"]
+
+[node name="ForestDemoObjects" type="Sprite2D" parent="."]
+y_sort_enabled = true
+texture = ExtResource("1_4qjtm")
+offset = Vector2(1, -13)
+region_enabled = true
+region_rect = Rect2(144.85767, 2.238678, 31.839142, 28.487652)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, -5)
+shape = SubResource("RectangleShape2D_hvgv7")
