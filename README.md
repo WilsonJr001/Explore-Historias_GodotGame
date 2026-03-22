@@ -31,6 +31,9 @@ Agradecimentos aos artistas da comunidade:
 - **Player1 PixelArt** https://xzany.itch.io/top-down-adventurer-character?download
 - **Player2 PixelArt** https://szadiart.itch.io/rpg-main-character
 - **Antagonista PixelArt** https://immortal-burrito.itch.io/blood-demons
+- **Segundo Tileset** https://free-game-assets.itch.io/free-2d-top-down-pixel-dungeon-asset-pack
+- **Tileset Para teste** https://free-game-assets.itch.io/free-cursed-land-top-down-pixel-art-tileset
+- **Coins Sounds** https://casper-gaming.itch.io/coin-sound-pack
 
 Prints do jogo em execução:
 
