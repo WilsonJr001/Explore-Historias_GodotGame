@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://u6yrma5xq12g"]
+[gd_scene load_steps=7 format=3 uid="uid://u6yrma5xq12g"]
 
 [ext_resource type="Script" uid="uid://bc5t4rxrlo4r4" path="res://item_coletavel.gd" id="1_bfy5b"]
 [ext_resource type="Texture2D" uid="uid://b8npyqw87hql8" path="res://Imagens/Pixel Lands Forest Demo/forest_demo_objects.png" id="2_hwvdw"]
 [ext_resource type="Texture2D" uid="uid://db37me5cs1uim" path="res://Imagens/free-2d-top-down-pixel-dungeon-asset-pack/Tiled_files/Objects.png" id="3_3hcuu"]
+[ext_resource type="AudioStream" uid="uid://bgcthvu48l8iu" path="res://Musicas/PegandoItem.ogg" id="3_b3hoo"]
 [ext_resource type="AudioStream" uid="uid://bhk5d54bxpdru" path="res://Musicas/se-coinsoundpack/Coin2.ogg" id="4_hwvdw"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_b3hoo"]
@@ -23,6 +24,9 @@ texture = ExtResource("2_hwvdw")
 offset = Vector2(-2, 3)
 region_enabled = true
 region_rect = Rect2(160.93942, 48.481743, 15.438614, 16.613297)
+
+[node name="ItemSom" type="AudioStreamPlayer2D" parent="Sprites/Chave"]
+stream = ExtResource("3_b3hoo")
 
 [node name="Coin" type="Sprite2D" parent="Sprites"]
 position = Vector2(-1, 3)

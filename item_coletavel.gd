@@ -26,6 +26,9 @@ func collect(body : Node2D) -> void:
 		if type == "Coin":
 			$Sprites/Coin/MoedaSom.play(0)
 			await $Sprites/Coin/MoedaSom.finished
+		else:
+			$Sprites/Chave/ItemSom.play(0)
+			await $Sprites/Chave/ItemSom.finished
 		queue_free()
 	
 	
