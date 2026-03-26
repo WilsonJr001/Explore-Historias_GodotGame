@@ -15,6 +15,11 @@ run/main_scene="uid://cyc1jbdqgr3wd"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+PlayerHud="*res://Cenas/player_hud.tscn"
+Message="*res://Codigos/message.gd"
+
 [display]
 
 window/size/viewport_width=320

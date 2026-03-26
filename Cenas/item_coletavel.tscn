@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://u6yrma5xq12g"]
 
-[ext_resource type="Script" uid="uid://bc5t4rxrlo4r4" path="res://item_coletavel.gd" id="1_bfy5b"]
+[ext_resource type="Script" uid="uid://bc5t4rxrlo4r4" path="res://Codigos/item_coletavel.gd" id="1_bfy5b"]
 [ext_resource type="Texture2D" uid="uid://b8npyqw87hql8" path="res://Imagens/Pixel Lands Forest Demo/forest_demo_objects.png" id="2_hwvdw"]
 [ext_resource type="Texture2D" uid="uid://db37me5cs1uim" path="res://Imagens/free-2d-top-down-pixel-dungeon-asset-pack/Tiled_files/Objects.png" id="3_3hcuu"]
 [ext_resource type="AudioStream" uid="uid://bgcthvu48l8iu" path="res://Musicas/PegandoItem.ogg" id="3_b3hoo"]
