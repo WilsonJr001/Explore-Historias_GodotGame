@@ -26,7 +26,7 @@ Este projeto preza pelo uso ético de recursos. A arte e os assets visuais utili
 através da plataforma **itch.io**.
 
 Agradecimentos aos artistas da comunidade:
-- **Assets 2D:** Disponibilizados via [itch.io](https://itch.io/game-assets/free) (ex: Adventurer 2D Pixel Art).
+- **Assets 2D** Disponibilizados via [itch.io](https://itch.io/game-assets/free) (ex: Adventurer 2D Pixel Art).
 - **TileSet e Tilemap** https://trislin.itch.io/pixel-lands-forest?download#google_vignette
 - **Player1 PixelArt** https://xzany.itch.io/top-down-adventurer-character?download
 - **Player2 PixelArt** https://szadiart.itch.io/rpg-main-character
@@ -34,6 +34,9 @@ Agradecimentos aos artistas da comunidade:
 - **Segundo Tileset** https://free-game-assets.itch.io/free-2d-top-down-pixel-dungeon-asset-pack
 - **Tileset Para teste** https://free-game-assets.itch.io/free-cursed-land-top-down-pixel-art-tileset
 - **Coins Sounds** https://casper-gaming.itch.io/coin-sound-pack
+- **Fonte** https://ninjikin.itch.io/font-antiquity-script
+- **Elementos HUD** https://werk00.itch.io/aventure-pack-assets
+- **Vilas** https://gowldev.itch.io/pixelwood-valley
 
 Prints do jogo em execução:
 
@@ -47,4 +50,4 @@ Prints do jogo em execução:
 1. Certifique-se de ter a **Godot Engine** instalada.
 2. Clone este repositório:
    ```bash
-   git clone [https://github.com/WilsonJr001/Explore-Historias_GodotGame.git](https://github.com/WilsonJr001/Explore-Historias_GodotGame.git)
+   git clone https://github.com/WilsonJr001/Explore-Historias_GodotGame.git
