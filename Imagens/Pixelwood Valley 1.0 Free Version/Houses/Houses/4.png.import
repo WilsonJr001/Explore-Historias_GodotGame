@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jskjpitrc3ts"
-path="res://.godot/imported/Stamina Bar.png-e5ff3855f9d4a9e5386c87ccb35d9cd9.ctex"
+uid="uid://sokjc3sk3s0v"
+path="res://.godot/imported/4.png-b7ae2775a7860596ec07709d01699b96.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imagens/HUD Elements/Stamina Bar.png"
-dest_files=["res://.godot/imported/Stamina Bar.png-e5ff3855f9d4a9e5386c87ccb35d9cd9.ctex"]
+source_file="res://Imagens/Pixelwood Valley 1.0 Free Version/Houses/Houses/4.png"
+dest_files=["res://.godot/imported/4.png-b7ae2775a7860596ec07709d01699b96.ctex"]
 
 [params]
 

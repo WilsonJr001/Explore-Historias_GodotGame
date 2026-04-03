@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blq4h3j6pqclx"
-path="res://.godot/imported/Notification Banner.png-5257051087a8220918ad945194f6d338.ctex"
+uid="uid://cte6o5bf4xjjb"
+path="res://.godot/imported/7.png-205be4b97f65de492c7e9a10c4e2d71f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imagens/HUD Elements/Notification Banner.png"
-dest_files=["res://.godot/imported/Notification Banner.png-5257051087a8220918ad945194f6d338.ctex"]
+source_file="res://Imagens/Pixelwood Valley 1.0 Free Version/Houses/Houses/7.png"
+dest_files=["res://.godot/imported/7.png-205be4b97f65de492c7e9a10c4e2d71f.ctex"]
 
 [params]
 

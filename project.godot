@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Explore_Historias"
-run/main_scene="uid://cyc1jbdqgr3wd"
+run/main_scene="uid://cyvm0jv0hts3w"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 

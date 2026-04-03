@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b4jxxt05fyr4f"
-path="res://.godot/imported/Resource Counter.png-1e18e87ff91fbb98c612ec6d2fbd48a8.ctex"
+uid="uid://bhxlwekjjay48"
+path="res://.godot/imported/1.png-21acf4f20c180e754ac642f75e149862.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imagens/HUD Elements/Resource Counter.png"
-dest_files=["res://.godot/imported/Resource Counter.png-1e18e87ff91fbb98c612ec6d2fbd48a8.ctex"]
+source_file="res://Imagens/Pixelwood Valley 1.0 Free Version/Chests/1.png"
+dest_files=["res://.godot/imported/1.png-21acf4f20c180e754ac642f75e149862.ctex"]
 
 [params]
 
