@@ -1,12 +1,14 @@
-[gd_scene load_steps=14 format=4 uid="uid://cyc1jbdqgr3wd"]
+[gd_scene load_steps=16 format=4 uid="uid://cyc1jbdqgr3wd"]
 
 [ext_resource type="Texture2D" uid="uid://cyjj05q3c7rhs" path="res://Imagens/Pixel Lands Forest Demo/forest_demo_terrain.png" id="1_aqqcq"]
+[ext_resource type="Script" uid="uid://x3ettgs8h3t7" path="res://Codigos/mundo.gd" id="1_feos1"]
 [ext_resource type="Texture2D" uid="uid://b8npyqw87hql8" path="res://Imagens/Pixel Lands Forest Demo/forest_demo_objects.png" id="2_nygim"]
 [ext_resource type="PackedScene" uid="uid://brp3bf8s4gwse" path="res://Cenas/Player.tscn" id="2_wcpi3"]
 [ext_resource type="PackedScene" uid="uid://f2r4es4g2812" path="res://Cenas/arvore.tscn" id="3_iif3h"]
 [ext_resource type="Texture2D" uid="uid://db37me5cs1uim" path="res://Imagens/free-2d-top-down-pixel-dungeon-asset-pack/Tiled_files/Objects.png" id="3_wnec3"]
 [ext_resource type="PackedScene" uid="uid://ckfleqb475lng" path="res://Cenas/rock.tscn" id="5_01nid"]
 [ext_resource type="PackedScene" uid="uid://u6yrma5xq12g" path="res://Cenas/item_coletavel.tscn" id="7_8trbm"]
+[ext_resource type="AudioStream" uid="uid://c68jwxs8t5qwb" path="res://Musicas/audiopapkin-forest-ambience-296528.mp3" id="8_25bfp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wcpi3"]
 texture = ExtResource("1_aqqcq")
@@ -354,6 +356,7 @@ sources/0 = SubResource("TileSetAtlasSource_iif3h")
 sources/5 = SubResource("TileSetAtlasSource_8trbm")
 
 [node name="Mundo" type="Node2D"]
+script = ExtResource("1_feos1")
 
 [node name="Layers" type="Node2D" parent="."]
 
@@ -594,3 +597,9 @@ type = "Coin"
 [node name="ItemColetavel8" parent="Itens" instance=ExtResource("7_8trbm")]
 position = Vector2(-202, -194)
 type = "Chave"
+
+[node name="Sons ambientes" type="Node2D" parent="."]
+
+[node name="SomFloresta" type="AudioStreamPlayer2D" parent="Sons ambientes"]
+stream = ExtResource("8_25bfp")
+volume_db = -10.947

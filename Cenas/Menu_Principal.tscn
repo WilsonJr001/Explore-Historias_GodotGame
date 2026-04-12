@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://cyvm0jv0hts3w"]
 
-[ext_resource type="Script" uid="uid://m38yg1t44wsx" path="res://Cenas/menu_principal.gd" id="1_vwbgj"]
+[ext_resource type="Script" uid="uid://m38yg1t44wsx" path="res://Codigos/menu_principal.gd" id="1_vwbgj"]
 [ext_resource type="Texture2D" uid="uid://d3kapn50chpii" path="res://Imagens/Captura de tela de 2026-04-03 19-16-15.png" id="1_wcgt6"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vwbgj"]

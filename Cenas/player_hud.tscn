@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://t404haehgkm3"]
 
-[ext_resource type="Script" uid="uid://nlkuuusit8ll" path="res://Cenas/player_hud.gd" id="1_a850i"]
+[ext_resource type="Script" uid="uid://nlkuuusit8ll" path="res://Codigos/player_hud.gd" id="1_a850i"]
 [ext_resource type="Texture2D" uid="uid://db37me5cs1uim" path="res://Imagens/free-2d-top-down-pixel-dungeon-asset-pack/Tiled_files/Objects.png" id="1_e5dri"]
 [ext_resource type="FontFile" uid="uid://cylomysr1b3ug" path="res://Fonts/antiquity-print.ttf" id="2_a850i"]
 

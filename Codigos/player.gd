@@ -2,7 +2,6 @@ extends CharacterBody2D
 
 class_name Player
 
-
 const SPEED = 100
 var last_direction: Vector2 = Vector2.RIGHT
 
