@@ -9,6 +9,7 @@ var last_direction: Vector2 = Vector2.RIGHT
 
 
 func _physics_process(_delta: float) -> void:
+	add_to_group("Players")
 	process_movement()
 	process_animation(last_direction)
 	move_and_slide()

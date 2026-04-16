@@ -1,18 +1,18 @@
-[gd_scene format=4 uid="uid://cyc1jbdqgr3wd"]
+[gd_scene format=4 uid="uid://cg7rsot3hmvv0"]
 
-[ext_resource type="Texture2D" uid="uid://cyjj05q3c7rhs" path="res://Imagens/Pixel Lands Forest Demo/forest_demo_terrain.png" id="1_aqqcq"]
-[ext_resource type="Script" uid="uid://x3ettgs8h3t7" path="res://Codigos/mundo.gd" id="1_feos1"]
-[ext_resource type="Texture2D" uid="uid://b8npyqw87hql8" path="res://Imagens/Pixel Lands Forest Demo/forest_demo_objects.png" id="2_nygim"]
-[ext_resource type="PackedScene" uid="uid://brp3bf8s4gwse" path="res://Cenas/Player.tscn" id="2_wcpi3"]
-[ext_resource type="PackedScene" uid="uid://f2r4es4g2812" path="res://Cenas/arvore.tscn" id="3_iif3h"]
-[ext_resource type="Texture2D" uid="uid://db37me5cs1uim" path="res://Imagens/free-2d-top-down-pixel-dungeon-asset-pack/Tiled_files/Objects.png" id="3_wnec3"]
-[ext_resource type="PackedScene" uid="uid://ckfleqb475lng" path="res://Cenas/rock.tscn" id="5_01nid"]
-[ext_resource type="PackedScene" uid="uid://u6yrma5xq12g" path="res://Cenas/item_coletavel.tscn" id="7_8trbm"]
-[ext_resource type="AudioStream" uid="uid://c68jwxs8t5qwb" path="res://Musicas/audiopapkin-forest-ambience-296528.mp3" id="8_25bfp"]
-[ext_resource type="PackedScene" uid="uid://bkgui1lw04pni" path="res://Cenas/Rato.tscn" id="10_wvmf8"]
+[ext_resource type="Script" uid="uid://x3ettgs8h3t7" path="res://Codigos/mundo.gd" id="1_bjsl6"]
+[ext_resource type="Texture2D" uid="uid://cyjj05q3c7rhs" path="res://Imagens/Pixel Lands Forest Demo/forest_demo_terrain.png" id="2_yn71n"]
+[ext_resource type="Texture2D" uid="uid://b8npyqw87hql8" path="res://Imagens/Pixel Lands Forest Demo/forest_demo_objects.png" id="3_c6pvx"]
+[ext_resource type="Texture2D" uid="uid://db37me5cs1uim" path="res://Imagens/free-2d-top-down-pixel-dungeon-asset-pack/Tiled_files/Objects.png" id="4_nt6ue"]
+[ext_resource type="PackedScene" uid="uid://brp3bf8s4gwse" path="res://Cenas/Player.tscn" id="5_ktpro"]
+[ext_resource type="PackedScene" uid="uid://f2r4es4g2812" path="res://Cenas/arvore.tscn" id="6_j20r2"]
+[ext_resource type="PackedScene" uid="uid://ckfleqb475lng" path="res://Cenas/rock.tscn" id="7_afyt6"]
+[ext_resource type="PackedScene" uid="uid://u6yrma5xq12g" path="res://Cenas/item_coletavel.tscn" id="8_xypay"]
+[ext_resource type="AudioStream" uid="uid://c68jwxs8t5qwb" path="res://Musicas/audiopapkin-forest-ambience-296528.mp3" id="9_7bqd8"]
+[ext_resource type="PackedScene" uid="uid://bkgui1lw04pni" path="res://Cenas/Rato.tscn" id="10_fr8lr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wcpi3"]
-texture = ExtResource("1_aqqcq")
+texture = ExtResource("2_yn71n")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -96,7 +96,7 @@ sources/0 = SubResource("TileSetAtlasSource_wcpi3")
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_nygim"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iif3h"]
-texture = ExtResource("2_nygim")
+texture = ExtResource("3_c6pvx")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -207,7 +207,7 @@ texture = ExtResource("2_nygim")
 7:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-3.1475277, -8, 2.7878103, -8, 2.9676695, 8, -2.9676695, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8trbm"]
-texture = ExtResource("3_wnec3")
+texture = ExtResource("4_nt6ue")
 1:1/0 = 0
 3:1/0 = 0
 6:1/0 = 0
@@ -357,7 +357,7 @@ sources/0 = SubResource("TileSetAtlasSource_iif3h")
 sources/5 = SubResource("TileSetAtlasSource_8trbm")
 
 [node name="Mundo" type="Node2D" unique_id=1848952758]
-script = ExtResource("1_feos1")
+script = ExtResource("1_bjsl6")
 
 [node name="Layers" type="Node2D" parent="." unique_id=63187307]
 
@@ -373,239 +373,241 @@ position = Vector2(-4, 0)
 tile_map_data = PackedByteArray("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AADq/xsAAAAHAAEAAADq/x0ABQAKAAEAAADr/xwAAAAHAAIAAADs/xwAAAAMAAMAAADt/xsAAAAHAAIAAADt/x0AAAAHAAIAAADu/xMAAAAHAAEAAADu/xsAAAAHAAEAAADv/xMAAAAHAAIAAADv/xgAAAAHAAEAAADv/x0AAAAHAAEAAADx/xoAAAAHAAIAAADy/xoAAAAHAAEAAADz/xgAAAAHAAIAAAD0/xcAAAAHAAIAAAD0/xwAAAAHAAEAAAD0/x0AAAAHAAIAAAD1/yAAAAAHAAEAAAD2/xsAAAAHAAIAAAD2/x0AAAAMAAMAAAD3/xYAAAAHAAEAAAD3/xkAAAAHAAEAAADj/xYAAAAHAAIAAADk/xsAAAAHAAIAAADk/yEAAAAMAAMAAADn/x4AAAAHAAIAAADo/xQAAAAHAAIAAADp/xcAAAAHAAIAAADp/xkAAAAHAAIAAADq/xQAAAAHAAIAAADq/xUAAAAHAAIAAADq/xgAAAAHAAIAAADq/yAAAAAHAAIAAADs/xYAAAAHAAIAAADs/xgAAAAHAAIAAADt/xcAAAAHAAIAAADt/xoAAAAHAAIAAADt/x4AAAAHAAIAAADw/x0AAAAHAAIAAADy/xcAAAAHAAIAAADy/xkAAAAHAAIAAADz/x8AAAAHAAIAAAD0/xsAAAAMAAMAAAD1/xsAAAAHAAIAAADh/xQAAAAHAAQAAADi/xsAAAAHAAIAAADi/xwAAAAHAAIAAADj/xgAAAAHAAIAAADk/xEAAAAHAAIAAADk/xcAAAAHAAIAAADk/xkAAAAMAAMAAADl/xcAAAAHAAIAAADm/xIAAAAHAAIAAADn/xMAAAAHAAIAAADn/xQAAAAHAAIAAADn/xkAAAAHAAIAAADo/xcAAAAHAAIAAADo/xgAAAAHAAIAAADo/xoAAAAHAAIAAADo/xwAAAAHAAIAAADr/xMAAAAHAAIAAADr/xUAAAAHAAIAAADr/xcAAAAHAAIAAADw/x8AAAAHAAIAAADx/x0AAAAHAAIAAADx/yAAAAAHAAIAAADy/yIAAAAHAAIAAADy/yMAAAAHAAIAAADz/xkAAAAHAAIAAADz/yIAAAAHAAIAAAD0/xgAAAAHAAIAAAD1/xgAAAAHAAIAAAD1/yIAAAAHAAIAAAD2/xkAAAAHAAIAAAD4/xgAAAAHAAIA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")
 tile_set = SubResource("TileSet_01nid")
 
-[node name="Camadas" type="YSort" parent="." unique_id=1784075187]
+[node name="Camadas" type="Node2D" parent="." unique_id=1784075187]
 y_sort_enabled = true
 
-[node name="CharacterBody2D" parent="Camadas" unique_id=1054474306 instance=ExtResource("2_wcpi3")]
+[node name="CharacterBody2D" parent="Camadas" unique_id=1054474306 instance=ExtResource("5_ktpro")]
 y_sort_enabled = true
 position = Vector2(222, 67)
+
+[node name="Inimigos" type="Node2D" parent="Camadas" unique_id=960565693]
+
+[node name="Rato" parent="Camadas/Inimigos" unique_id=956990688 instance=ExtResource("10_fr8lr")]
+z_index = -1
+y_sort_enabled = true
+position = Vector2(347, 157)
 
 [node name="Arvores" type="Node2D" parent="Camadas" unique_id=1387890383]
 y_sort_enabled = true
 
-[node name="Arvore" parent="Camadas/Arvores" unique_id=394878789 instance=ExtResource("3_iif3h")]
+[node name="Arvore" parent="Camadas/Arvores" unique_id=394878789 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(-335, 466)
 
-[node name="Arvore6" parent="Camadas/Arvores" unique_id=2077323219 instance=ExtResource("3_iif3h")]
+[node name="Arvore6" parent="Camadas/Arvores" unique_id=2077323219 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(-414, 368)
 
-[node name="Arvore7" parent="Camadas/Arvores" unique_id=1691616423 instance=ExtResource("3_iif3h")]
+[node name="Arvore7" parent="Camadas/Arvores" unique_id=1691616423 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(-88, 500)
 
-[node name="Arvore8" parent="Camadas/Arvores" unique_id=1069079933 instance=ExtResource("3_iif3h")]
+[node name="Arvore8" parent="Camadas/Arvores" unique_id=1069079933 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(-251, 252)
 
-[node name="Arvore2" parent="Camadas/Arvores" unique_id=644449414 instance=ExtResource("3_iif3h")]
+[node name="Arvore2" parent="Camadas/Arvores" unique_id=644449414 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(120, 168)
 
-[node name="Arvore3" parent="Camadas/Arvores" unique_id=729446842 instance=ExtResource("3_iif3h")]
+[node name="Arvore3" parent="Camadas/Arvores" unique_id=729446842 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(-26, 154)
 
-[node name="Arvore4" parent="Camadas/Arvores" unique_id=428055244 instance=ExtResource("3_iif3h")]
+[node name="Arvore4" parent="Camadas/Arvores" unique_id=428055244 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(-109, 196)
 
-[node name="Arvore5" parent="Camadas/Arvores" unique_id=1692066091 instance=ExtResource("3_iif3h")]
+[node name="Arvore5" parent="Camadas/Arvores" unique_id=1692066091 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(19, 233)
 
-[node name="Arvore9" parent="Camadas/Arvores" unique_id=1289542922 instance=ExtResource("3_iif3h")]
+[node name="Arvore9" parent="Camadas/Arvores" unique_id=1289542922 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(140, -15)
 
-[node name="Arvore10" parent="Camadas/Arvores" unique_id=2129386279 instance=ExtResource("3_iif3h")]
+[node name="Arvore10" parent="Camadas/Arvores" unique_id=2129386279 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(-6, -29)
 
-[node name="Arvore11" parent="Camadas/Arvores" unique_id=3300926 instance=ExtResource("3_iif3h")]
+[node name="Arvore11" parent="Camadas/Arvores" unique_id=3300926 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(-89, 13)
 
-[node name="Arvore12" parent="Camadas/Arvores" unique_id=1970725213 instance=ExtResource("3_iif3h")]
+[node name="Arvore12" parent="Camadas/Arvores" unique_id=1970725213 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(39, 50)
 
-[node name="Arvore13" parent="Camadas/Arvores" unique_id=1426782165 instance=ExtResource("3_iif3h")]
+[node name="Arvore13" parent="Camadas/Arvores" unique_id=1426782165 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(425, -94)
 
-[node name="Arvore14" parent="Camadas/Arvores" unique_id=969602416 instance=ExtResource("3_iif3h")]
+[node name="Arvore14" parent="Camadas/Arvores" unique_id=969602416 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(279, -108)
 
-[node name="Arvore15" parent="Camadas/Arvores" unique_id=1334691056 instance=ExtResource("3_iif3h")]
+[node name="Arvore15" parent="Camadas/Arvores" unique_id=1334691056 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(196, -66)
 
-[node name="Arvore16" parent="Camadas/Arvores" unique_id=893848308 instance=ExtResource("3_iif3h")]
+[node name="Arvore16" parent="Camadas/Arvores" unique_id=893848308 instance=ExtResource("6_j20r2")]
 y_sort_enabled = true
 position = Vector2(324, -29)
 
 [node name="Pedras" type="Node2D" parent="Camadas" unique_id=430467083]
 y_sort_enabled = true
 
-[node name="Rock" parent="Camadas/Pedras" unique_id=1893251312 instance=ExtResource("5_01nid")]
+[node name="Rock" parent="Camadas/Pedras" unique_id=1893251312 instance=ExtResource("7_afyt6")]
 position = Vector2(126, 83)
 
-[node name="Rock2" parent="Camadas/Pedras" unique_id=1324221612 instance=ExtResource("5_01nid")]
+[node name="Rock2" parent="Camadas/Pedras" unique_id=1324221612 instance=ExtResource("7_afyt6")]
 position = Vector2(52, 237)
 
-[node name="Rock3" parent="Camadas/Pedras" unique_id=1132982857 instance=ExtResource("5_01nid")]
+[node name="Rock3" parent="Camadas/Pedras" unique_id=1132982857 instance=ExtResource("7_afyt6")]
 position = Vector2(-91, 409)
 
-[node name="Rock5" parent="Camadas/Pedras" unique_id=973345992 instance=ExtResource("5_01nid")]
+[node name="Rock5" parent="Camadas/Pedras" unique_id=973345992 instance=ExtResource("7_afyt6")]
 position = Vector2(-374, 284)
 
-[node name="Rock4" parent="Camadas/Pedras" unique_id=1063920092 instance=ExtResource("5_01nid")]
+[node name="Rock4" parent="Camadas/Pedras" unique_id=1063920092 instance=ExtResource("7_afyt6")]
 position = Vector2(-31, 311)
 
 [node name="Itens" type="Node2D" parent="." unique_id=296074313]
 
-[node name="ItemColetavel" parent="Itens" unique_id=1476354173 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel" parent="Itens" unique_id=1476354173 instance=ExtResource("8_xypay")]
 position = Vector2(72, 111)
 type = "Coin"
 
-[node name="ItemColetavel2" parent="Itens" unique_id=488581768 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel2" parent="Itens" unique_id=488581768 instance=ExtResource("8_xypay")]
 position = Vector2(179, -485)
 type = "Chave"
 
-[node name="ItemColetavel18" parent="Itens" unique_id=1817776966 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel18" parent="Itens" unique_id=1817776966 instance=ExtResource("8_xypay")]
 position = Vector2(188, -460)
 type = "Chave"
 
-[node name="ItemColetavel19" parent="Itens" unique_id=731305397 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel19" parent="Itens" unique_id=731305397 instance=ExtResource("8_xypay")]
 position = Vector2(166, -459)
 type = "Chave"
 
-[node name="ItemColetavel20" parent="Itens" unique_id=640584007 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel20" parent="Itens" unique_id=640584007 instance=ExtResource("8_xypay")]
 position = Vector2(192, -435)
 type = "Chave"
 
-[node name="ItemColetavel22" parent="Itens" unique_id=195910884 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel22" parent="Itens" unique_id=195910884 instance=ExtResource("8_xypay")]
 position = Vector2(180, -412)
 type = "Chave"
 
-[node name="ItemColetavel23" parent="Itens" unique_id=1969415890 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel23" parent="Itens" unique_id=1969415890 instance=ExtResource("8_xypay")]
 position = Vector2(156, -500)
 type = "Chave"
 
-[node name="ItemColetavel24" parent="Itens" unique_id=148007362 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel24" parent="Itens" unique_id=148007362 instance=ExtResource("8_xypay")]
 position = Vector2(129, -507)
 type = "Chave"
 
-[node name="ItemColetavel25" parent="Itens" unique_id=460307684 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel25" parent="Itens" unique_id=460307684 instance=ExtResource("8_xypay")]
 position = Vector2(124, -484)
 type = "Chave"
 
-[node name="ItemColetavel26" parent="Itens" unique_id=616558095 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel26" parent="Itens" unique_id=616558095 instance=ExtResource("8_xypay")]
 position = Vector2(97, -483)
 type = "Chave"
 
-[node name="ItemColetavel27" parent="Itens" unique_id=1462022345 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel27" parent="Itens" unique_id=1462022345 instance=ExtResource("8_xypay")]
 position = Vector2(109, -455)
 type = "Chave"
 
-[node name="ItemColetavel28" parent="Itens" unique_id=465718977 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel28" parent="Itens" unique_id=465718977 instance=ExtResource("8_xypay")]
 position = Vector2(80, -458)
 type = "Chave"
 
-[node name="ItemColetavel29" parent="Itens" unique_id=1848237228 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel29" parent="Itens" unique_id=1848237228 instance=ExtResource("8_xypay")]
 position = Vector2(94, -436)
 type = "Chave"
 
-[node name="ItemColetavel30" parent="Itens" unique_id=1300017709 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel30" parent="Itens" unique_id=1300017709 instance=ExtResource("8_xypay")]
 position = Vector2(136, -424)
 type = "Chave"
 
-[node name="ItemColetavel31" parent="Itens" unique_id=1056711690 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel31" parent="Itens" unique_id=1056711690 instance=ExtResource("8_xypay")]
 position = Vector2(166, -428)
 type = "Chave"
 
-[node name="ItemColetavel32" parent="Itens" unique_id=222913015 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel32" parent="Itens" unique_id=222913015 instance=ExtResource("8_xypay")]
 position = Vector2(114, -414)
 type = "Chave"
 
-[node name="ItemColetavel33" parent="Itens" unique_id=1069540457 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel33" parent="Itens" unique_id=1069540457 instance=ExtResource("8_xypay")]
 position = Vector2(148, -403)
 type = "Chave"
 
-[node name="ItemColetavel21" parent="Itens" unique_id=378932871 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel21" parent="Itens" unique_id=378932871 instance=ExtResource("8_xypay")]
 position = Vector2(319, 124)
 type = "Chave"
 
-[node name="ItemColetavel3" parent="Itens" unique_id=285901734 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel3" parent="Itens" unique_id=285901734 instance=ExtResource("8_xypay")]
 position = Vector2(-80, 391)
 type = "Coin"
 
-[node name="ItemColetavel9" parent="Itens" unique_id=1209638191 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel9" parent="Itens" unique_id=1209638191 instance=ExtResource("8_xypay")]
 position = Vector2(-367, 469)
 type = "Chave"
 
-[node name="ItemColetavel4" parent="Itens" unique_id=1795533788 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel4" parent="Itens" unique_id=1795533788 instance=ExtResource("8_xypay")]
 position = Vector2(189, 508)
 type = "Coin"
 
-[node name="ItemColetavel5" parent="Itens" unique_id=782960102 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel5" parent="Itens" unique_id=782960102 instance=ExtResource("8_xypay")]
 position = Vector2(204, 523)
 type = "Coin"
 
-[node name="ItemColetavel6" parent="Itens" unique_id=1985382748 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel6" parent="Itens" unique_id=1985382748 instance=ExtResource("8_xypay")]
 position = Vector2(205, 499)
 type = "Coin"
 
-[node name="ItemColetavel7" parent="Itens" unique_id=799674179 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel7" parent="Itens" unique_id=799674179 instance=ExtResource("8_xypay")]
 position = Vector2(222, 511)
 type = "Coin"
 
-[node name="ItemColetavel10" parent="Itens" unique_id=826122228 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel10" parent="Itens" unique_id=826122228 instance=ExtResource("8_xypay")]
 position = Vector2(189, 520)
 type = "Coin"
 
-[node name="ItemColetavel11" parent="Itens" unique_id=180693470 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel11" parent="Itens" unique_id=180693470 instance=ExtResource("8_xypay")]
 position = Vector2(204, 535)
 type = "Coin"
 
-[node name="ItemColetavel12" parent="Itens" unique_id=502156292 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel12" parent="Itens" unique_id=502156292 instance=ExtResource("8_xypay")]
 position = Vector2(205, 511)
 type = "Coin"
 
-[node name="ItemColetavel13" parent="Itens" unique_id=204991374 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel13" parent="Itens" unique_id=204991374 instance=ExtResource("8_xypay")]
 position = Vector2(222, 523)
 type = "Coin"
 
-[node name="ItemColetavel14" parent="Itens" unique_id=722215336 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel14" parent="Itens" unique_id=722215336 instance=ExtResource("8_xypay")]
 position = Vector2(213, 516)
 type = "Coin"
 
-[node name="ItemColetavel15" parent="Itens" unique_id=923406475 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel15" parent="Itens" unique_id=923406475 instance=ExtResource("8_xypay")]
 position = Vector2(228, 531)
 type = "Coin"
 
-[node name="ItemColetavel16" parent="Itens" unique_id=1431182790 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel16" parent="Itens" unique_id=1431182790 instance=ExtResource("8_xypay")]
 position = Vector2(229, 507)
 type = "Coin"
 
-[node name="ItemColetavel17" parent="Itens" unique_id=1455020217 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel17" parent="Itens" unique_id=1455020217 instance=ExtResource("8_xypay")]
 position = Vector2(246, 519)
 type = "Coin"
 
-[node name="ItemColetavel8" parent="Itens" unique_id=1787739374 instance=ExtResource("7_8trbm")]
+[node name="ItemColetavel8" parent="Itens" unique_id=1787739374 instance=ExtResource("8_xypay")]
 position = Vector2(-202, -194)
 type = "Chave"
 
 [node name="Sons ambientes" type="Node2D" parent="." unique_id=738881780]
 
 [node name="SomFloresta" type="AudioStreamPlayer2D" parent="Sons ambientes" unique_id=746009079]
-stream = ExtResource("8_25bfp")
+stream = ExtResource("9_7bqd8")
 volume_db = -10.947
-
-[node name="Inimigos" type="Node2D" parent="." unique_id=960565693]
-
-[node name="Rato" parent="Camadas" unique_id=956990688 instance=ExtResource("10_wvmf8")]
-position = Vector2(347, 157)
